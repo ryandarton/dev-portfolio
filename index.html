@@ -10,24 +10,27 @@
   </head>
   <body>
     <header>
-      <h1 class="title">Ryan Darton</h1>
-      <nav>
-        <ul>
-          <li>
-            <a href="#bio">About Me</a>
-          </li>
-          <li>
-            <a href="#work">Work</a>
-          </li>
-          <li>
-            <a href="#contact-me">Contact</a>
-          </li>
-          <li>
-            <a href="https://docs.google.com/document/d/1el7p-QC7YP-RVer7wl8mLQfw1BW0N-b-a3LETCnpIHI/edit?usp=sharing" target="”_blank”"
-              >Resume</a
-            >
-          </li>
-        </ul>
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <h1 class="title">Ryan Darton</h1>
+
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start"></div>
+
+          <div class="navbar-end">
+            <a href="#bio" class="navbar-item"> About Me </a>
+
+            <a href="#work" class="navbar-item"> Work </a>
+            <a href="#contact-me" class="navbar-item"> Contact </a>
+          </div>
+        </div>
       </nav>
       <header class="subheader">
         <h2>Fast, Scalable, Object Orriented Web Applications</h2>
@@ -50,7 +53,15 @@
         <aside></aside>
         <article></article>
       </footer>
-      <footer class="copyright"></footer>
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <!-- TODO: Use JavaScript to inject current year.  -->
+            Site by <a href="http://www.ryandarton.com/" target="_blank"><strong>Ryan Darton</strong></a
+            >. ©2024.
+          </p>
+        </div>
+      </footer>
     </main>
     <!-- link to javascript file(s) here -->
   </body>
