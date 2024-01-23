@@ -28,11 +28,10 @@ div.tile.is-child {
 
 .bottom-right {
   position: absolute;
-  color: red;
   right: 2rem;
   bottom: 2rem;
 }
 
 button {
-  filter: drop-shadow(2px 3px 4px #000000);
+  filter: drop-shadow(4px 5px 6px rgba(0, 0, 0, 0.9));
 }
