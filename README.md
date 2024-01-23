@@ -1,2 +1,7 @@
 # dev-portfolio
-Portfolio showcasing development achievements of Ryan Darton.
+
+An online portfolio showcasing the development achievements of Ryan Darton.
+
+# The Site
+
+https://ryandarton.github.io/dev-portfolio/
