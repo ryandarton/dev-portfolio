@@ -21,3 +21,18 @@ div.tile.is-parent.middle,
 article.tile.is-parent.middle {
   padding: 0;
 }
+
+div.tile.is-child {
+  position: relative;
+}
+
+.bottom-right {
+  position: absolute;
+  color: red;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+button {
+  filter: drop-shadow(2px 3px 4px #000000);
+}
