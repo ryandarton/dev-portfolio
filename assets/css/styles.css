@@ -12,8 +12,12 @@
   background-image: rgb(238, 174, 202);
   background-image: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
 }
-img {
-  width: 100%;
-  object-fit: cover;
-  object-position: top;
+
+.tile.is-vertical {
+  padding: 0;
+}
+
+div.tile.is-parent.middle,
+article.tile.is-parent.middle {
+  padding: 0;
 }
