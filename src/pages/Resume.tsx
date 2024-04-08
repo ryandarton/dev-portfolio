@@ -5,7 +5,7 @@ const Resume: React.FC = () => {
     <section>
       <h2>Resume</h2>
       <div>
-        <a href='path/to/your/resume.pdf' download>
+        <a target='_blank' href='https://docs.google.com/document/d/1dTNysfXWDLwzq9yl6NsJHnX_3HBSEoL_8tgnkiqX2u8/edit?usp=sharing' download>
           Download Resume
         </a>
       </div>
@@ -19,7 +19,6 @@ const Resume: React.FC = () => {
           <li>Node.js</li>
           <li>Express.js</li>
           <li>MongoDB</li>
-          {/* Add more proficiencies */}
         </ul>
       </div>
     </section>
