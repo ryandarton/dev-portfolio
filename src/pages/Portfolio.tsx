@@ -12,10 +12,39 @@ const Portfolio: React.FC = () => {
     {
       title: 'Weather Dashboard',
       deployedUrl: 'https://ryandarton.github.io/weather-dashboard/',
-      githubUrl: 'https://github.com/ryandarton/weather-dashboar',
+      githubUrl: 'https://github.com/ryandarton/weather-dashboard',
       imageUrl: 'https://raw.githubusercontent.com/ryandarton/weather-dashboard/main/assets/weather-dashboard-screenshot.png',
     },
-    // TODO: Add more projects
+    {
+      title: 'Horiseon Social Solution Services',
+      deployedUrl: 'https://ryandarton.github.io/horiseon-social-solutions-services/',
+      githubUrl: 'https://github.com/ryandarton/horiseon-social-solutions-services',
+      imageUrl: 'https://github.com/ryandarton/horiseon-social-solutions-services/blob/main/assets/images/screencapture.png?raw=true',
+    },
+    {
+      title: 'JavaScript Fundamentals Quiz',
+      deployedUrl: 'https://ryandarton.github.io/JavaScript-fundamentals-quiz/',
+      githubUrl: 'https://github.com/ryandarton/JavaScript-fundamentals-quiz',
+      imageUrl: 'https://github.com/ryandarton/JavaScript-fundamentals-quiz/raw/main/assets/images/Screenshot.png',
+    },
+    {
+      title: 'Password Generator',
+      deployedUrl: 'https://ryandarton.github.io/password-generator/',
+      githubUrl: 'https://github.com/ryandarton/password-generator',
+      imageUrl: 'https://github.com/ryandarton/password-generator/raw/main/password-generator-screenshot.png',
+    },
+    {
+      title: 'Workday Scheduler',
+      deployedUrl: 'https://ryandarton.github.io/workday-scheduler/',
+      githubUrl: 'https://github.com/ryandarton/workday-scheduler',
+      imageUrl: 'https://github.com/ryandarton/workday-scheduler/raw/main/Assets/work-day-scheduler-screenshot.png',
+    },
+    {
+      title: 'Note Taker Web App',
+      deployedUrl: 'https://rd-note-taker-web-app-4661d447f166.herokuapp.com/',
+      githubUrl: 'https://github.com/ryandarton/note-taker-web-app',
+      imageUrl: 'https://github.com/ryandarton/note-taker-web-app/raw/main/public/assets/images/Screenshot1.png',
+    },
   ];
 
   return (
