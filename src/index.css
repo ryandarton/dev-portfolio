@@ -1,13 +1,28 @@
+:root {
+  --color-1: #51624f;
+  --color-2: #e6d5a9;
+  --color-3: #afbea2;
+  --color-4: #9cb4ac;
+  --primary-background-color: white;
+}
+
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   font-size: 16pt;
-  background-color: #f5f5f5;
-  color: #51624f;
+  background-color: var(--primary-background-color);
+  color: var(--color-1);
 }
+
 header {
-  background-color: #e6d5a9;
+  background-color: var(--color-2);
   padding: 1rem 3rem;
+}
+
+footer {
+  background-color: var(--bg-color-3);
+  padding: 20px;
+  text-align: center;
 }
 
 nav ul {
@@ -21,7 +36,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #51624f;
+  color: var(--color-1);
 }
 
 nav ul li a.active {
@@ -29,7 +44,7 @@ nav ul li a.active {
 }
 
 footer {
-  background-color: #afbea2;
+  background-color: var(--color-3);
   padding: 20px;
   text-align: center;
 }
@@ -37,6 +52,10 @@ footer {
 .footer-icon {
   margin: 1rem;
   display: inline-block;
+}
+
+.footer-icon svg {
+  fill: var(--color-1);
 }
 
 .profile-pic {
@@ -47,9 +66,56 @@ footer {
 }
 
 section {
+  max-width: 100%;
   margin: 3rem;
+  overflow-x: hidden;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--color-2);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.project-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.project-link {
+  flex: 0 0 auto;
+}
+
+.project-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.project-card > * {
+  flex: 1 1 300px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+@media screen and (max-width: 1000px) {
+  .project-links {
+    flex-direction: column;
+  }
 }

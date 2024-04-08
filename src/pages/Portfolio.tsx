@@ -21,7 +21,7 @@ const Portfolio: React.FC = () => {
   return (
     <section>
       <h2>Portfolio</h2>
-      <div>
+      <div className='project-card'>
         {projects.map((project, index) => (
           <Project
             key={index}
